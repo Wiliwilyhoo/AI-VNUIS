@@ -12,7 +12,7 @@ model_dict = {
     "SVM": joblib.load("svm.pkl"),
     "XGBoost": joblib.load("XGBoost.pkl"),
     "Random Forest": joblib.load("RF.pkl"),
-    "LR": joblib.load("LR.pkl"),
+    "Logistic Regression": joblib.load("LR.pkl"),
 }
 scaler = joblib.load("scaler.pkl")  
 
